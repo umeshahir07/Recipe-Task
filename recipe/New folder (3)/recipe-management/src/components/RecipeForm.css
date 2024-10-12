@@ -1,0 +1,60 @@
+/* src/components/RecipeForm.css */
+.form-container {
+    max-width: 600px; /* Limit the width of the form */
+    margin: 20px auto; /* Center the form */
+    padding: 20px; /* Inner padding */
+    border: 1px solid #ddd; /* Border around the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    background-color: #fff; /* White background for contrast */
+  }
+  
+  h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark color for the heading */
+  }
+  
+  form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+  }
+  
+  label {
+    margin-bottom: 15px; /* Space below each label */
+    font-size: 16px; /* Standard font size */
+  }
+  
+  input, textarea {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Inner padding */
+    margin-top: 5px; /* Space above inputs */
+    border: 1px solid #ccc; /* Border around inputs */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Standard font size */
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #4CAF50; /* Change border color on focus */
+    outline: none; /* Remove outline */
+  }
+  
+  textarea {
+    height: 100px; /* Fixed height for textarea */
+    resize: none; /* Prevent resizing */
+  }
+  
+  .submit-button {
+    background-color: #4CAF50; /* Green background for submit button */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Standard font size */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  

@@ -1,0 +1,111 @@
+/* src/components/RecipeList.css */
+
+/* Navbar Styles */
+.navbar {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between brand and links */
+    align-items: center; /* Center items vertically */
+    background-color: #007BFF; /* Blue background */
+    padding: 10px 20px; /* Padding for navbar */
+    color: white; /* White text color */
+  }
+  
+  .navbar-brand {
+    font-size: 24px; /* Larger font size for brand */
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text color */
+  }
+  
+  .navbar-links {
+    display: flex; /* Flexbox for links */
+  }
+  
+  .navbar-link {
+    margin-left: 20px; /* Space between links */
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text color */
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Existing Styles */
+  .recipe-list-container {
+    max-width: 800px; /* Limit the width of the recipe list */
+    margin: 20px auto; /* Center the recipe list */
+    padding: 20px; /* Inner padding */
+    border: 1px solid #ddd; /* Light border around the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    background-color: #fff; /* White background for contrast */
+  }
+  
+  h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark color for the heading */
+  }
+  
+  .search-input {
+    width: 100%; /* Full width for search input */
+    padding: 10px; /* Inner padding */
+    margin-bottom: 20px; /* Space below search input */
+    border: 1px solid #ccc; /* Border around the search input */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Standard font size */
+  }
+  
+  .search-input:focus {
+    border-color: #4CAF50; /* Change border color on focus */
+    outline: none; /* Remove outline */
+  }
+  
+  .recipe-list {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .recipe-item {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Inner padding for list items */
+    border-bottom: 1px solid #ddd; /* Border below each item */
+  }
+  
+  .recipe-item:last-child {
+    border-bottom: none; /* Remove border from last item */
+  }
+  
+  .recipe-link {
+    flex-grow: 1; /* Allow link to take available space */
+    text-decoration: none; /* Remove underline from link */
+    color: #333; /* Dark color for recipe title */
+    font-weight: bold; /* Bold text for emphasis */
+  }
+  
+  .edit-link {
+    margin-left: 10px; /* Space between links */
+    color: #007BFF; /* Blue color for edit link */
+    text-decoration: none; /* Remove underline from link */
+  }
+  
+  .edit-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .delete-button {
+    margin-left: 10px; /* Space between links and button */
+    background-color: #dc3545; /* Red background for delete button */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px 10px; /* Padding for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  
